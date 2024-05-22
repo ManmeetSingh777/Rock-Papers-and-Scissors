@@ -1,0 +1,51 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-image: url(./rock-paper-scissors-boilerplate/assets/bg.png);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .container {
+    text-align: center;
+  }
+  
+  .title {
+    color: purple;
+    margin: 20px 0;
+  }
+  
+  .image {
+    width: 300px;
+    margin: 0 auto;
+  }
+  
+  .play-button {
+    background-color: purple;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 20px;
+  }
+
+  #Game-Link{
+    display: block;
+    margin-top: 20px;
+    text-decoration: none;
+    color: purple;
+    font-weight: bold;
+    font-size: 18px;
+    text-align: center;
+  }
+
+  #Game-Link:hover{
+    color: darkorchid;
+  }

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Scoreboard</title>
+  <link rel="stylesheet" href="Style.css" />
+</head>
+
+<body>
+  <div class="container">
+    <div class="scoreboard">
+      <div class="team">
+        <div class="empty-square">
+          <img src="" alt="" id="userHand">
+          <p class="player">You</p>
+            
+          <img  src="./rock-paper-scissors-boilerplate/assets/rock-logo.png" alt="Image 1" class="bottom-image" onclick="selectHand('rock')">
+          <img src="./rock-paper-scissors-boilerplate/assets/paper-logo.png" alt="Image 2" class="bottom-image" onclick="selectHand('paper')">
+          <img src="./rock-paper-scissors-boilerplate/assets/scissors-logo.png" alt="Image 3" class="bottom-image" onclick="selectHand('scissors')">
+      </div>
+      
+        <div class="team-details">
+          <div class="score">0-0</div>
+        </div>
+      </div>
+      <div class="vs">
+        <img src="./rock-paper-scissors-boilerplate/assets/vs.png" alt="VS" class="vs-image" />
+      </div>
+      <div class="team">
+        <div class="empty-square">
+        <img src="" id="computerHand" class="center-image">
+        </div>
+        <div class="team-details">
+         
+        </div>
+      </div>
+      <div id="resultMessage"></div>
+    <button id="playAgainBtn" onclick="resetGame()" style="display: none;">Play Again</button>
+  </div>
+    </div>
+  </div>
+
+
+  
+<script src="Game.js"></script>
+</body>
+
+</html>
